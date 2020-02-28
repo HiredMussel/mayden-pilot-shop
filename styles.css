@@ -225,14 +225,29 @@ nav img {
 	}
 	
 	.jumboTron img {
-		width: 240px;
+		width: 235px;
 	}
 	
 	.swipeContainer {
 		justify-content: space-between;
-		width: 760px;
+		width: 750px;
 	}
+}
 
+@media only screen and (max-width: 770px) {
+	.jumboTron {
+		font-size: 0.5em;
+	}
+	
+	.jumboTron1 .slogan {
+		padding-top: 1em;
+	}
+	
+	/* Hide this version of the swiper - more specific rule needs to be used to override */
+	
+	.jumboTron .swipeContainer {
+		display: none;
+	}
 }
 
 .jumboTron1 {
@@ -276,7 +291,7 @@ nav img {
 .jumbotronButton {
 	display:inline-block;
 	
-	font-size: 1.8em;
+	font-size: 1.8rem;
 	color: #FFFFFF;
 	
 	padding: 0.8em;
@@ -375,7 +390,7 @@ nav img {
 	font-size: 4em;
 	padding-top: 4em;
 	font-weight: 500;
-	width: 30em;
+	width: 23em;
 }
 
 /* Styling for the news section */
