@@ -22,7 +22,7 @@ a {
 .container {
 	
 	margin: 0 auto;
-	width: 85%;
+	width: min(1200px, 100%);
 }
 
 /* float phone number to the left and have it display as inline block */
