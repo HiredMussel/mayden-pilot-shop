@@ -156,17 +156,6 @@ nav img {
 	
 }
 
-.previewContent {
-	font-size: 4em;
-	text-align: left;
-	font-weight: 400;
-	color: #FFFFFF;
-}
-
-p[class="previewContent"] {
-	font-size:2em;
-}
-
 /* Styling for the part of the page which contains the featured products */
 
 .featuredProducts h1 {
