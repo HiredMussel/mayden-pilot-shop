@@ -12,6 +12,7 @@ a {
 /* container properties - needs to be centred in page */
 .container {
 	
+	font-size: 1em;
 	margin: 0 auto;
 	width: min(1200px, 100%);
 }
@@ -98,6 +99,12 @@ nav img {
 }
 
 /* Styling for the first large callout. This has a large image as a background with white text overlaid on top of it */
+
+/* Define "1 rem" reference point in jumbotrons for media queries later */
+.jumbotron {
+	font-size: 1rem;
+}
+
 
 .jumboTron1 {
 	display: block;
@@ -197,7 +204,7 @@ nav img {
 	text-align: center;
 	
 	width: 100%;
-	height: 530px;
+	height: 53em;
 }
 
 /* Making the browser width too small results in undesired behaviour, image repeats below. 
