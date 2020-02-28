@@ -550,6 +550,8 @@ nav img {
 @media only screen and (max-width: 770px) {
 	
 	.newsletterSubscription #email {
+		width: 85%;
+		
 		display: block;
 		margin: 0 auto;
 	}
