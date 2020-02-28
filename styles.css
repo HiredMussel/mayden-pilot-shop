@@ -543,6 +543,21 @@ nav img {
 	}
 }
 
+/* move SUBSCRIBE button to a new line at breakpoint 3 */
+
+@media only screen and (max-width: 770px) {
+	
+	.newsletterSubscription #email {
+		display: block;
+		margin: 0 auto;
+	}
+	
+	.newsletterSubscription .subscribe {
+		margin-top: 0.5em;
+		margin-bottom: 1em;
+	}
+}
+
 /* Implement styling rules for information tag at the bottom of the page */
 footer {
 	background-color: #2D2734;
