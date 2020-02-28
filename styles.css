@@ -94,8 +94,8 @@ nav img {
 	color: #FFFFFF;
 	font-size: 0.5em;
 	
-	position:relative;
-	left:4em;
+	position: relative;
+	left: 4em;
 	
 }
 
@@ -258,10 +258,17 @@ nav img {
 
 .newsItems .container {
 	display: flex;
-	justify-content: space-between;
+	justify-content: space-around;
 	flex-wrap: wrap;
 	
 	margin-bottom: 70px;
+}
+
+
+@media only screen and (max-width: 800px) {
+	.newsItem {
+		width: 49%;
+	}
 }
 
 /* Styling for the newletter sign-up portion of the page */
