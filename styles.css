@@ -20,6 +20,8 @@ a {
 header {
 	overflow: auto;
 	
+	text-align: center;
+	
 	background-color: #EEEEEE;
 	
 	font-size: 1.4em;
@@ -51,7 +53,32 @@ header {
 	float: right;
 }
 
-/* Styling for Search Section during Media Query */
+/* headerDummy only exists on small screens */
+.headerDummy {
+	display: none;
+}
+
+/* Styling for Navigation Section during Media Query */
+@media only screen and (max-width: 1000px) {
+	/* phone number disappears on small screen */
+	.headerContactInfo {
+		display: none;
+	}
+	
+	/* "My Account", "Wishlist", "Checkout" icons move to new line for small screens */
+	.headerDummy {
+		display: block;
+	}
+	
+	.headerNavigation {
+		display: block;
+		float: none;
+	}
+	
+	.cartArea {
+		float: left;
+	}
+}
 
 /* Vertical Alignment */
 .headerContent {
