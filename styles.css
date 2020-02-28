@@ -301,6 +301,13 @@ p[class="previewContent"] {
 }
 
 /* Implement styling rules for information tag at the bottom of the page */
+footer {
+	background-color: #2D2734;
+	
+	color: #FFFFFF;
+	font-weight: 200;
+}
+
 footer .container>div {
 	display: inline-block;
 	
