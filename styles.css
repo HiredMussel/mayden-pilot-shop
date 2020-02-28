@@ -4,15 +4,6 @@ html {
 	font-size: 62.5%;
 }
 
-/* header properties - this contains floated elements */
-header {
-	overflow: auto;
-	
-	background-color: #EEEEEE;
-	
-	font-size: 1.4em;
-}
-
 /* links on page are not generally underlined */
 a {
 	text-decoration: none;
@@ -23,6 +14,15 @@ a {
 	
 	margin: 0 auto;
 	width: min(1200px, 100%);
+}
+
+/* header properties - this contains floated elements */
+header {
+	overflow: auto;
+	
+	background-color: #EEEEEE;
+	
+	font-size: 1.4em;
 }
 
 /* float phone number to the left and have it display as inline block */
