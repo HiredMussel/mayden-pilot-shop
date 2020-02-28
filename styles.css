@@ -2,6 +2,8 @@
 html {
 	font-family: Sans-Serif;
 	font-size: 62.5%;
+	
+	min-width: 500px;
 }
 
 /* links on page are not generally underlined */
