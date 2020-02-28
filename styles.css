@@ -458,10 +458,29 @@ nav img {
 	margin-bottom: 70px;
 }
 
+/* breakpoint 2 causes news items to switch to 2 per line */
 
 @media only screen and (max-width: 1000px) {
 	.newsItem {
 		width: 49%;
+	}
+}
+
+/* Breakpoint 3 causes all items to appear with image on the left, and the rest of the formatting on the right */
+@media only screen and (max-width:770px) {
+	.newsItem {
+		width: 100%;
+	}
+	
+	.newsItem {
+		display: block;
+		overflow: auto;
+	}
+	
+	.newsDesc {
+		height: 100%;
+		width: 80%;
+		float: right;
 	}
 }
 
