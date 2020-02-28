@@ -149,6 +149,7 @@ nav img {
 /* Media Breakpoints for screen resizing */
 .jumboTron {
 	font-size: 1rem;
+	text-align: center;
 }
 
 @media only screen and (max-width: 1200px) {
@@ -168,6 +169,15 @@ nav img {
 @media only screen and (max-width: 1000px) {
 	.jumboTron {
 		font-size: 0.6rem;
+	}
+	
+	.jumboTron img {
+		width: 200px;
+	}
+	
+	.swipeContainer {
+		justify-content: space-between;
+		width: 640px;
 	}
 
 }
