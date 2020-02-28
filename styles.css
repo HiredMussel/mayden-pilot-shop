@@ -7,6 +7,7 @@ html {
 /* links on page are not generally underlined */
 a {
 	text-decoration: none;
+	color: #000000;
 }
 
 /* container properties - needs to be centred in page */
@@ -86,7 +87,7 @@ header {
 }
 
 /* form, input, search field etc need to display in an inline block */
-.headerContent div,a,form,input,label {
+.headerContent div,.headerContent a,.headerContent form,.headerContent input,.headerContent label {
 	display:inline-block;
 	
 	color: #999999;
@@ -105,7 +106,7 @@ nav {
 }
 
 nav img {
-	padding: 2.5em 1em;
+	padding: 2.5em 0.5em;
 	padding-left: 0;
 	display: inline-block;
 	float:left;
@@ -142,8 +143,30 @@ nav img {
 	
 }
 
-@media only screen and (max-width: 800px) {
+/* dropdown which only exists when screen size is below 1010px */
+
+#navDropDown {
+	display:none;
+	float: right;
 	
+	padding: 0.5em 1.3em;
+	
+	border: 2px solid #000000;
+	
+	margin: 2.5em 0.5em;
+}
+
+/* nav bar runs into trouble slightly before breakpoint 2, so this special case must be added */
+@media only screen and (max-width: 1010px) {
+	/* Hide existing nav buttons */
+	.navButton {
+		display: none;
+	}
+	
+	/* Add in a new nav button */
+	#navDropDown {
+		display: inline-block;
+	}
 }
 
 /* Styling for the first large callout. This has a large image as a background with white text overlaid on top of it */
