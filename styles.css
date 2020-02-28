@@ -369,6 +369,29 @@ nav img {
 	}
 }
 
+/* Breakpoint 3 causes all items to appear with image on the left, and the rest of the formatting on the right */
+@media only screen and (max-width:770px) {
+	.featuredItem {
+		width: 100%;
+	}
+	
+	.featuredItem:nth-child(4), .featuredItem:nth-child(8) {
+		display: block;
+	}
+	
+	
+	.featuredItem {
+		display: block;
+		overflow: auto;
+	}
+	
+	.productInfo {
+		height: 100%;
+		width: 80%;
+		float: right;
+	}
+}
+
 /* Styling for the second large callout immediately under the featured items */
 
 .jumbotron2 {
