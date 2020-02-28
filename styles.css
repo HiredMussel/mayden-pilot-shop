@@ -110,6 +110,14 @@ nav img {
 	.jumboTron {
 		font-size: 0.8rem;
 	}
+	
+	.jumboTron img {
+		width: 300px;
+	}
+	
+	.swipeContainer {
+		width: 85%;
+	}
 }
 
 .jumboTron1 {
