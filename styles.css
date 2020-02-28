@@ -303,5 +303,8 @@ p[class="previewContent"] {
 /* Implement styling rules for information tag at the bottom of the page */
 footer .container>div {
 	display: inline-block;
+	
+	vertical-align: text-top;
+	
 	width: 32%;
 }
