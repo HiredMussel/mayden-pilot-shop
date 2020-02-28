@@ -569,10 +569,26 @@ footer p {
 	font-size: 1.4em;
 	font-weight: 100;
 	color: #B6B6B6;
+	
+	width: 100%;
 }
 
 #facebook {
 	width: 19%;
+}
+
+/*breakpoint 3 causes each information section to appear on its own line */
+@media only screen and (max-width: 770px) {
+	footer .container>div, #latestPosts, #facebook {
+		display: block;
+		padding: 0 3%;
+		width: 94%;
+	}
+	
+	footer {
+		padding: 1em;
+	}
+	
 }
 
 /* Implement styling rules for legal disclaimer at the bottom of the page */
