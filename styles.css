@@ -1,0 +1,290 @@
+/* set basic page properties */
+html {
+	font-family: Sans-Serif;
+	font-size: 62.5%;
+}
+
+/* header properties - this contains floated elements */
+header {
+	overflow: auto;
+	
+	background-color: #EEEEEE;
+	
+	font-size: 1.4em;
+}
+
+/* links on page are not generally underlined */
+a {
+	text-decoration: none;
+}
+
+/* container properties - needs to be centred in page */
+.container {
+	
+	margin: 0 auto;
+	width: 85%;
+}
+
+/* float phone number to the left and have it display as inline block */
+.headerContactInfo {
+	display:inline-block;
+	float: left;
+}
+
+/* float search and shopping header to the right */
+.headerNavigation {
+	display: inline-block;
+	float: right;
+}
+
+/* Vertical Alignment */
+.headerContent {
+	padding: 1em 0;
+}
+
+/* form, input, search field etc need to display in an inline block */
+.headerContent div,a,form,input,label {
+	display:inline-block;
+	
+	color: #999999;
+	font-weight: 600;
+	
+	padding-left: 1em;
+}
+
+/* Styling for the nav bar */
+nav {
+	overflow: auto;
+	
+	font-size: 1.6em;
+	color: #000000;
+	font-weight: 700;
+}
+
+nav img {
+	padding: 2.5em 1em;
+	display: inline-block;
+	float:left;
+}
+
+.navButtons {
+	display: inline-block;
+	float: right;
+}
+
+.navButton {
+	display:inline-block;
+	
+	color: #000000;
+	
+	padding: 0.8em;
+	margin: 1.8em 0.5em;
+}
+
+.home {
+	border: 2px solid #000000;
+}
+
+.products .dummy::before {
+	content: "HOT DEALS";
+	background-color: #FF0000;
+	
+	color: #FFFFFF;
+	font-size: 0.5em;
+	
+	position:relative;
+	left:4em;
+	
+}
+
+/* Styling for the first large callout. This has a large image as a background with white text overlaid on top of it */
+
+.jumboTron1 {
+	display: block;
+	background-image: url("https://cdn.shopify.com/s/files/1/1634/8185/t/2/assets/slide1_image.jpg?v=9240162744247295619");
+	background-position: center top;
+	overflow: visible;
+	
+	text-align: center;
+	
+	width: 100%;
+	height: 800px;
+}
+
+.slogan {
+	display: inline-block;
+	
+	font-size: 7em;
+	font-weight: 600;
+	letter-spacing:0.1em;
+	color: #FFFFFF;
+	
+	padding-top: 90px;
+}
+
+.sloganFollowUp {
+	display:inline-block;
+	
+	font-size: 1.8em;
+	font-weight: 500;
+	letter-spacing: 0.1em;
+	color: #FFFFFF;
+}
+
+.jumbotronButton {
+	display:inline-block;
+	
+	font-size: 1.8em;
+	color: #FFFFFF;
+	
+	padding: 1em;
+	
+	border: 3px solid #FFFFFF;
+	
+	margin-top: 3em;
+}
+
+/* Implementing the three swiper boxes using flexbox */
+
+.swipeContainer {
+	display: flex;
+	justify-content: space-around;
+	
+	position: relative;
+	bottom: -160px;
+	
+}
+
+.preview {
+	background-color: #4182F1;
+	
+	width: 27%;
+	
+	padding: 2em;
+}
+
+.previewContent {
+	font-size: 4em;
+	text-align: left;
+	font-weight: 400;
+	color: #FFFFFF;
+}
+
+p[class="previewContent"] {
+	font-size:2em;
+}
+
+/* Styling for the part of the page which contains the featured products */
+
+.featuredProducts h1 {
+	font-size: 1.4em;
+	text-align: center;
+	
+	padding: 4em;
+	padding-top: 9em;
+}
+
+.productLinks .container {
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	
+	margin-bottom: 50px;
+}
+
+.featuredItem {
+	
+	width: 20%;
+	
+	margin: 2%;
+}
+
+.priceNow,.oldPrice {
+	display:inline-block;
+}
+
+/* Styling for the second large callout immediately under the featured items */
+
+.jumbotron2 {
+	display: block;
+	background-image: url("https://cdn.shopify.com/s/files/1/1634/8185/t/2/assets/homepage_parallax_img.jpg?v=8113678875740113347");
+	background-position: 50% -50px;
+	background-size: 1500px;
+	overflow: visible;
+	
+	text-align: center;
+	
+	width: 100%;
+	height: 600px;
+}
+
+.jumbotron2 .slogan {
+	padding-top: 5em;
+	font-size: 4.1em;
+	font-weight: 300;
+}
+
+/* Styling for the news section */
+
+.news h1 {
+	text-align: center;
+	
+	margin: 70px;
+}
+
+/* Flexbox to contain the news items themselves */
+
+.newsItems .container {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	
+	margin-bottom: 70px;
+}
+
+/* Styling for the newletter sign-up portion of the page */
+
+.newsletterSubscription {
+	background-color: #59A1C4;
+}
+
+.newsletterSubscription .container {
+	
+	text-align: center;
+	
+}
+
+.newsletterSubscription h1,form,input,label {
+	display:inline-block;
+
+	color: #FFFFFF;
+}
+
+.subscribeForm {
+	width: 100%;
+}
+
+.subscribeLabel {
+	font-size: 1.6em;
+}
+
+.subscribe {
+	color: #FFFFFF;
+	font-size: 1.6em;
+	
+	padding: 1em;
+	
+	border: 2px solid #FFFFFF;
+	
+	margin: 3em 0;
+	
+}
+
+#email {
+	font-size: 0.8em;
+	padding: 2em;
+	padding-top: 2em;
+	border: 2px solid #FFFFFF;
+	margin: 1em;
+	width: 60%;
+}

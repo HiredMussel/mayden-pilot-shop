@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<!-- Tab name in browser -->
+	<title>PILOT SHOP | PILOT SHOP</title>
+	
+	<!-- Import CSS reset -->
+	<link rel="stylesheet" type="text/css" href="normalise.css" />
+	
+	<!-- Import own CSS Stylings -->
+	<link rel="stylesheet" type="text/css" href="styles.css" />
+	
+</head>
+	
+<body>
+	
+	<!-- Page begins with header at the top of the page for shopping purposes -->
+	<header>
+		<!-- Page is aligned using automatic margins down both sides of the page. Use container object -->
+			<div class=container>
+				<!-- Phone number is listed on the left -->
+				<div class="headerContactInfo headerContent">
+					<div class=phoneNo> +800-2345-6789 </div>
+				</div>
+				
+				<!-- Links to various parts of the site in the header. This section must be floated to the right -->
+				<div class="headerNavigation headerContent">
+					<!-- Listing of Links -->
+					<a href="#">MY ACCOUNT</a>
+					<a href="#">WISHLIST</a>
+					<a href="#">CHECKOUT</a>
+					<!-- Drop-down menu for Currency Format seems to be implemented with JQuery, so is being ignored for now -->
+					<a class = ".dropdown" href="#">USD</a>
+					<!-- Link to Cart -->
+					<a href="#">CART</a>
+					
+					<!-- Search User Input -->
+					<form>
+						<input id="searchField" name="searchField" type="text" class="search" placeholder="SEARCH STORE" />
+						<button for="searchField"> Search </button>
+					</form>
+				</div>
+				
+			</div>
+	</header>
+	
+	<nav> 
+		<!-- This is the navigation bar, which remains fixed at the top of the page under the Header -->
+			<div class=container>
+				<!-- PilotShop logo -->
+				<img src="https://cdn.shopify.com/s/files/1/1634/8185/t/2/assets/logo.png?v=17687249275084709482">
+				
+			
+			<!-- This is now a series of buttons which can be used to navigate to the rest of the site -->
+				<div class=navButtons>
+					<a class="navButton home" href="#">HOME</a>
+					<a class="navButton products" href="#"><div class="dummy"></div>PRODUCTS</a>
+					<a class="navButton" href="#">BLOG</a>
+					<a class="navButton" href="#">SALE</a>
+					<a class="navButton" href="#">ABOUT US</a>
+					<a class="navButton" href="#">CONTACT US</a>
+				</div>
+			</div>
+	</nav>
+	
+	<!-- This is now the main image for the site, set against a background image -->
+	<section class="jumboTron jumboTron1">
+		
+		<div class="container">
+			<h1 class=slogan>-  A  WIDE  RANGE  -</h1>
+			<br />
+			<p class="sloganFollowUp">OF AVIATION PRODUCTS AND PILOT SUPPLIES</p>
+			<br />
+			<a class="jumbotronButton" href="#">SHOP NOW!</a>
+		</div>
+		
+		<div class="container swipeContainer">
+			<div class="preview">
+				<h2 class="previewContent">HOT <br /> HEADSETS</h2>
+				<p class="previewContent">THE BEST OFFERS</p>
+			</div>
+			
+			<div class="preview">
+				<h2 class="previewContent">ONLY <br /> THE BEST</h2>
+				<p class="previewContent">FLYING TUTORIALS</p>
+			</div>
+			
+			<div class="preview">
+				<h2 class="previewContent">PORTABLE <br /> GPS</h2>
+				<p class="previewContent">THE HIGHEST QUALITY</p>
+			</div>
+			
+		</div>
+		
+	</section>
+	
+	<!-- This Section of the website contains a listing of products which are currently being featured for sale -->
+	<section class="featuredProducts"> 
+		<div class="container">
+			<h1>FEATURED PRODUCTS</h1>
+		</div>
+	</section>
+	
+	<!-- This section is the actual products currently being featured -->
+	
+	<section class="productLinks">
+		<div class="container">
+			<div class=featuredItem>
+				<img src="#" />
+				<h2>PRODUCT NAME</h2>
+				<p class="prodDesc">Product Description</p>
+				<p class="priceNow">Price1</p>
+				<p class="oldPrice">Price2</p>
+			</div>
+			<div class=featuredItem>
+				<img src="#" />
+				<h2>PRODUCT NAME</h2>
+				<p class="prodDesc">Product Description</p>
+				<p class="priceNow">Price1</p>
+				<p class="oldPrice">Price2</p>
+			</div>
+			<div class=featuredItem>
+				<img src="#" />
+				<h2>PRODUCT NAME</h2>
+				<p class="prodDesc">Product Description</p>
+				<p class="priceNow">Price1</p>
+				<p class="oldPrice">Price2</p>
+			</div>
+			<div class=featuredItem>
+				<img src="#" />
+				<h2>PRODUCT NAME</h2>
+				<p class="prodDesc">Product Description</p>
+				<p class="priceNow">Price1</p>
+				<p class="oldPrice">Price2</p>
+			</div>
+			<div class=featuredItem>
+				<img src="#" />
+				<h2>PRODUCT NAME</h2>
+				<p class="prodDesc">Product Description</p>
+				<p class="priceNow">Price1</p>
+				<p class="oldPrice">Price2</p>
+			</div>
+			<div class=featuredItem>
+				<img src="#" />
+				<h2>PRODUCT NAME</h2>
+				<p class="prodDesc">Product Description</p>
+				<p class="priceNow">Price1</p>
+				<p class="oldPrice">Price2</p>
+			</div>
+			<div class=featuredItem>
+				<img src="#" />
+				<h2>PRODUCT NAME</h2>
+				<p class="prodDesc">Product Description</p>
+				<p class="priceNow">Price1</p>
+				<p class="oldPrice">Price2</p>
+			</div>
+			<div class=featuredItem>
+				<img src="#" />
+				<h2>PRODUCT NAME</h2>
+				<p class="prodDesc">Product Description</p>
+				<p class="priceNow">Price1</p>
+				<p class="oldPrice">Price2</p>
+			</div>
+		</div>
+	</section>
+	
+	<!-- This is now a second large callout directing people to read more about PilotShop -->
+	
+	<section class="jumbotron jumbotron2">
+		<div class="container">
+			<h1 class="slogan">PILOTSHOP IS THE BEST CHOICE FOR PROFESSIONAL AND PRIVATE PILOTS</h1>
+			
+			<br />
+			<a class="jumbotronButton" href="#">READ MORE</a>
+		
+		</div>
+	</section>
+	
+	<!-- This is now a section containing news articles relevant to Pilotshop -->
+	
+	<section class="news">
+		<h1 class="newsHeader">NEWS</h1>
+		
+		<div class="newsItems">
+			<div class="container">
+				<div class=newsItem>
+					<img src="#" />
+					<h2>NEWS TITLE</h2>
+					<p class="newsDesc">News Summary</p>
+				</div>
+				<div class=newsItem>
+					<img src="#" />
+					<h2>NEWS TITLE</h2>
+					<p class="newsDesc">News Summary</p>
+				</div>
+				<div class=newsItem>
+					<img src="#" />
+					<h2>NEWS TITLE</h2>
+					<p class="newsDesc">News Summary</p>
+				</div>
+				<div class=newsItem>
+					<img src="#" />
+					<h2>NEWS TITLE</h2>
+					<p class="newsDesc">News Summary</p>
+				</div>
+			</div>
+		</div>
+	</section>
+	
+	<!-- This section allows a reader of the website to subscribe to its newsletter -->
+	
+	<section class="newsletterSubscription">
+		<div class="container">
+			<form class="subscribeForm">
+				<h1 class="subscribeLabel">NEWSLETTER</h1>
+			
+				<input type="text" id="email" name="email" placeholder="Enter your email" />
+				<label class="subscribe" for="email">SUBSCRIBE</label>
+			</form>
+		</div>
+	</section>
+	
+	<!-- This section contains miscellaneous information -->
+	
+	<footer>
+		<div class=storeInfo>
+			<h1>STORE INFORMATION</h1>
+			<p>MyCompany Glasgow D04 89GR</p>
+			<p>800-2345-6789</p>
+			<p>info@demolink.org</p>
+		</div>
+		
+		<div class=latestPosts>
+			<h1>LATEST POSTS</h1>
+			<h2>Aviation Day 2015</h2>
+			
+			<p>This is about general aviation, learning to fly and coming out to the neighborhood airport and seeing airplanes and helicophers. When you deal with sky, you know that safety is...</p>
+			<h2>All pilot supplies are listed alphabetically</h2>
+			<p>When you deal with the sky, you know that safety is above everything - you understand how important reliability of things is. Our store was created back in 1972 by Jim...</p>
+		</div>
+		
+		<div class="facebook">
+			<h1>FACEBOOK</h1>
+		</div>
+		
+	</footer>
+	
+</body>
+</html>
