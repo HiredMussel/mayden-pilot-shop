@@ -190,14 +190,14 @@ nav img {
 .jumbotron2 {
 	display: block;
 	background-image: url("https://cdn.shopify.com/s/files/1/1634/8185/t/2/assets/homepage_parallax_img.jpg?v=8113678875740113347");
-	background-position: 50% -50px;
+	background-position: 50% -170px;
 	background-size: cover;
 	overflow: visible;
 	
 	text-align: center;
 	
 	width: 100%;
-	height: 600px;
+	height: 530px;
 }
 
 /* Making the browser width too small results in undesired behaviour, image repeats below. 
@@ -210,10 +210,10 @@ nav img {
 }
 
 .jumbotron2 .slogan {
-	padding-top: 5em;
-	font-size: 4.1em;
-	font-weight: 300;
-	width: 70%;
+	padding-top: 4em;
+	font-size: 4em;
+	font-weight: 500;
+	width: 75%;
 }
 
 /* Styling for the news section */
