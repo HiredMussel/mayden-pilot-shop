@@ -415,7 +415,7 @@ nav img {
 	
 }
 
-.newsletterSubscription h1,form,input,label {
+.subscribeLabel,.newsletterSubscription form,.newsletterSubscription input,.newsletterSubscription label {
 	display:inline-block;
 
 	color: #FFFFFF;
@@ -448,6 +448,18 @@ nav img {
 	border: 2px solid #FFFFFF;
 	margin: 1em;
 	width: 60%;
+}
+
+/* move NEWSLETTER label to a new line at breakpoint 2 */
+@media only screen and (max-width: 1000px) {
+	.subscribeLabel {
+		margin-top: 2em;
+		display: block;
+	}
+	
+	.subscribe {
+		margin-top: 0;
+	}
 }
 
 /* Implement styling rules for information tag at the bottom of the page */
