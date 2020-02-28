@@ -103,6 +103,7 @@ nav img {
 	display: block;
 	background-image: url("https://cdn.shopify.com/s/files/1/1634/8185/t/2/assets/slide1_image.jpg?v=9240162744247295619");
 	background-position: center top;
+	background-size: cover;
 	overflow: visible;
 	
 	text-align: center;
@@ -209,13 +210,22 @@ p[class="previewContent"] {
 	display: block;
 	background-image: url("https://cdn.shopify.com/s/files/1/1634/8185/t/2/assets/homepage_parallax_img.jpg?v=8113678875740113347");
 	background-position: 50% -50px;
-	background-size: 1500px;
+	background-size: cover;
 	overflow: visible;
 	
 	text-align: center;
 	
 	width: 100%;
 	height: 600px;
+}
+
+/* Making the browser width too small results in undesired behaviour, image repeats below. 
+   Background image thus cannot get vertically smaller than a specified value */ 
+
+@media only screen and (max-width: 1200px) {
+	.jumbotron2 {
+		background-size: 1200px auto;
+	}
 }
 
 .jumbotron2 .slogan {
