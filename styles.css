@@ -313,6 +313,8 @@ footer .container>div {
 	
 	vertical-align: text-top;
 	
+	margin: 70px 0;
+	
 	width: 32%;
 }
 
@@ -321,3 +323,4 @@ footer p {
 	font-weight: 100;
 	color: #B6B6B6;
 }
+
