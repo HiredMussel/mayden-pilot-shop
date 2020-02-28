@@ -306,15 +306,23 @@ footer .container>div {
 	
 	vertical-align: text-top;
 	
-	padding: 70px 0;
+	padding: 7em 3%;
 	
-	width: 32%;
+	width: 24%;
+}
+
+#latestPosts {
+	width: 35%;
 }
 
 footer p {
 	font-size: 1.4em;
 	font-weight: 100;
 	color: #B6B6B6;
+}
+
+#facebook {
+	width: 19%;
 }
 
 /* Implement styling rules for legal disclaimer at the bottom of the page */
