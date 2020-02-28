@@ -250,6 +250,23 @@ nav img {
 	}
 }
 
+/* jumboTron1 undergoes undesided behaviour below 710 pixels, so needs to trigger breakpoint 4 early */
+@media only screen and (max-width: 770px) {
+	body .jumboTron1 {
+		height: 40em;
+	}
+	
+	.jumboTron1 .slogan {
+		padding-top: 0.6em;
+	}
+	
+	/* Hide this version of the swiper - more specific rule needs to be used to override */
+	
+	.jumboTron .swipeContainer {
+		display: none;
+	}
+}
+
 .jumboTron1 {
 	display: block;
 	background-image: url("https://cdn.shopify.com/s/files/1/1634/8185/t/2/assets/slide1_image.jpg?v=9240162744247295619");
