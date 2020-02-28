@@ -11,7 +11,6 @@ a {
 
 /* container properties - needs to be centred in page */
 .container {
-	
 	font-size: 1em;
 	margin: 0 auto;
 	width: min(1200px, 100%);
@@ -101,10 +100,17 @@ nav img {
 /* Styling for the first large callout. This has a large image as a background with white text overlaid on top of it */
 
 /* Define "1 rem" reference point in jumbotrons for media queries later */
-.jumbotron {
+
+/* Media Breakpoints for screen resizing */
+.jumboTron {
 	font-size: 1rem;
 }
 
+@media only screen and (max-width: 1200px) {
+	.jumboTron {
+		font-size: 0.8rem;
+	}
+}
 
 .jumboTron1 {
 	display: block;
