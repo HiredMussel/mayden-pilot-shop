@@ -100,6 +100,8 @@ header {
 nav {
 	overflow: auto;
 	
+	text-align: center;
+	
 	font-size: 1.6em;
 	color: #000000;
 	font-weight: 700;
@@ -149,12 +151,15 @@ nav img {
 	display:none;
 	float: right;
 	
-	padding: 0.5em 1.3em;
+	text-align: left;
+	
+	padding: 0.7em 1.3em;
 	
 	border: 2px solid #000000;
 	
 	margin: 2.5em 0.5em;
 }
+
 
 /* nav bar runs into trouble slightly before breakpoint 2, so this special case must be added */
 @media only screen and (max-width: 1010px) {
@@ -166,6 +171,27 @@ nav img {
 	/* Add in a new nav button */
 	#navDropDown {
 		display: inline-block;
+	}
+}
+
+/* make the drop down responsive at breakpoint 2 */
+@media only screen and (max-width:1000px) {
+	#navDropDown {
+		float: none;
+		
+		display: block;
+		width: 70%;
+		
+		margin: 0 auto;
+		margin-bottom: 3em;
+	}
+	
+	/* Force the new nav button to move down a line and move the logo to the centre */
+	nav img {
+		display: block;
+		float: none;
+		
+		margin: 0 auto;
 	}
 }
 
