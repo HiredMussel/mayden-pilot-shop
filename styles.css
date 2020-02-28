@@ -27,15 +27,31 @@ header {
 
 /* float phone number to the left and have it display as inline block */
 .headerContactInfo {
-	display:inline-block;
+	display: inline-block;
 	float: left;
 }
 
-/* float search and shopping header to the right */
+/* float content to the right of the header. Must be done in the correct order */
+
+/* float shopping header to the right */
 .headerNavigation {
 	display: inline-block;
 	float: right;
 }
+
+/* float cart area to the right */
+.cartArea {
+	display: inline-block;
+	float: right;
+}
+
+/* float Search bar to the right */
+.searchArea {
+	display: inline-block;
+	float: right;
+}
+
+/* Styling for Search Section during Media Query */
 
 /* Vertical Alignment */
 .headerContent {

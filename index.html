@@ -23,27 +23,28 @@
 					<div class=phoneNo> +800-2345-6789 </div>
 				</div>
 				
-				<!-- Links to various parts of the site in the header. This section must be floated to the right -->
-				<div class="headerNavigation headerContent">
-					<!-- Listing of Links -->
-					<a href="#">MY ACCOUNT</a>
-					<a href="#">WISHLIST</a>
-					<a href="#">CHECKOUT</a>
-				</div>
-				<!-- Area with shopping cart behaves differently during media query -->
-				</div class="headerNavigation cartArea">
-					<!-- Drop-down menu for Currency Format seems to be implemented with JQuery, so is being ignored for now -->
-					<a class = ".dropdown" href="#">USD</a>
-					<!-- Link to Cart -->
-					<a href="#">CART</a>
-				</div>
+				<!-- Links to various parts of the site in the header. This section must be floated to the right
+					 Listed inverted to allow correct float behaviour -->
 				<!-- Search Area needs to be treated differently due to behaviour with media query -->
-				<div class="headerNavigation searchArea">
+				<div class="headerContent searchArea">
 					<!-- Search User Input -->
 					<form>
 						<input id="searchField" name="searchField" type="text" class="search" placeholder="SEARCH STORE" />
 						<button for="searchField"> Search </button>
 					</form>
+				</div>
+				<!-- Area with shopping cart behaves differently during media query -->
+				<div class="headerContent cartArea">
+					<!-- Drop-down menu for Currency Format seems to be implemented with JQuery, so is being ignored for now -->
+					<a class = ".dropdown" href="#">USD</a>
+					<!-- Link to Cart -->
+					<a href="#">CART</a>
+				</div>
+				<div class="headerNavigation headerContent">
+					<!-- Listing of Links -->
+					<a href="#">MY ACCOUNT</a>
+					<a href="#">WISHLIST</a>
+					<a href="#">CHECKOUT</a>
 				</div>
 			</div>
 	</header>
