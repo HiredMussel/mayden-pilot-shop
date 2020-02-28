@@ -63,6 +63,7 @@ nav {
 
 nav img {
 	padding: 2.5em 1em;
+	padding-left: 0;
 	display: inline-block;
 	float:left;
 }
@@ -83,6 +84,7 @@ nav img {
 
 .home {
 	border: 2px solid #000000;
+	margin-left: 0;
 }
 
 .products .dummy::before {
