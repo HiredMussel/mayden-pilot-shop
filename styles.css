@@ -142,6 +142,10 @@ nav img {
 	
 }
 
+@media only screen and (max-width: 800px) {
+	
+}
+
 /* Styling for the first large callout. This has a large image as a background with white text overlaid on top of it */
 
 /* Define "1 rem" reference point in jumbotrons for media queries later */
@@ -271,6 +275,17 @@ nav img {
 
 .priceNow,.oldPrice {
 	display:inline-block;
+}
+
+/* Fourth Item on each row disappears at breakpoint 2 */
+@media only screen and (max-width:1000px) {
+	.featuredItem {
+		width: 29%;
+	}
+	
+	.featuredItem:nth-child(4), .featuredItem:nth-child(8) {
+		display: none;
+	}
 }
 
 /* Styling for the second large callout immediately under the featured items */
