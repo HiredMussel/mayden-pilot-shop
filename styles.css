@@ -386,6 +386,13 @@ nav img {
 	}
 }
 
+@media only screen and (max-width: 570px) {
+	.jumbotron2 div .slogan {		
+		font-size: 3em;
+		padding-top: 5em;
+	}
+}
+
 .jumbotron2 .slogan {
 	font-size: 4em;
 	padding-top: 4em;
