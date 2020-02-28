@@ -29,18 +29,22 @@
 					<a href="#">MY ACCOUNT</a>
 					<a href="#">WISHLIST</a>
 					<a href="#">CHECKOUT</a>
+				</div>
+				<!-- Area with shopping cart behaves differently during media query -->
+				</div class="headerNavigation cartArea">
 					<!-- Drop-down menu for Currency Format seems to be implemented with JQuery, so is being ignored for now -->
 					<a class = ".dropdown" href="#">USD</a>
 					<!-- Link to Cart -->
 					<a href="#">CART</a>
-					
+				</div>
+				<!-- Search Area needs to be treated differently due to behaviour with media query -->
+				<div class="headerNavigation searchArea">
 					<!-- Search User Input -->
 					<form>
 						<input id="searchField" name="searchField" type="text" class="search" placeholder="SEARCH STORE" />
 						<button for="searchField"> Search </button>
 					</form>
 				</div>
-				
 			</div>
 	</header>
 	
@@ -228,7 +232,7 @@
 				<p>info@demolink.org</p>
 			</div>
 		
-			<div class=latestPosts>
+			<div id=latestPosts>
 				<h1>LATEST POSTS</h1>
 				<h2>Aviation Day 2015</h2>
 			
@@ -237,7 +241,7 @@
 				<p>When you deal with the sky, you know that safety is above everything - you understand how important reliability of things is. Our store was created back in 1972 by Jim...</p>
 			</div>
 		
-			<div class="facebook">
+			<div id="facebook">
 				<h1>FACEBOOK</h1>
 			</div>
 		</div>
